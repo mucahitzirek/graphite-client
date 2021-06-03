@@ -1,10 +1,10 @@
 package net.savantly.graphite.impl;
 
-import java.util.Collection;
-
 import net.savantly.graphite.CarbonMetric;
 import net.savantly.graphite.CarbonSender;
 import net.savantly.graphite.GraphiteClient;
+
+import java.util.Collection;
 
 public class DefaultGraphiteClient implements GraphiteClient {
 	private CarbonSender carbonSender;

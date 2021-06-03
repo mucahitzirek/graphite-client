@@ -1,17 +1,16 @@
 package net.savantly.graphite.impl;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-import org.junit.Assert;
-import org.junit.Test;
-
 import net.savantly.graphite.CarbonFactory;
 import net.savantly.graphite.CarbonMetric;
 import net.savantly.graphite.GraphiteClient;
 import net.savantly.graphite.MockCarbonServer;
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class DefaultGraphiteClientTest {
 	
