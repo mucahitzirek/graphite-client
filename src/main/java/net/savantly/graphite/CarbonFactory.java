@@ -1,10 +1,10 @@
 package net.savantly.graphite;
 
-import net.savantly.graphite.impl.DefaultCarbonSender;
-import net.savantly.graphite.impl.SimpleCarbonMetric;
-
 import java.net.SocketException;
 import java.net.UnknownHostException;
+
+import net.savantly.graphite.impl.SimpleCarbonMetric;
+import net.savantly.graphite.impl.DefaultCarbonSender;
 
 public class CarbonFactory {
 	

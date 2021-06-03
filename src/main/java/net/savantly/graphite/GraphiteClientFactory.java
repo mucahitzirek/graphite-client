@@ -1,12 +1,12 @@
 package net.savantly.graphite;
 
+import java.net.SocketException;
+import java.net.UnknownHostException;
+
 import net.savantly.graphite.impl.DefaultGraphiteClient;
 import net.savantly.graphite.impl.QueryableGraphiteClientImpl;
 import net.savantly.graphite.web.GraphiteWebConfiguration;
 import net.savantly.graphite.web.GraphiteWebConfigurationBuilder;
-
-import java.net.SocketException;
-import java.net.UnknownHostException;
 
 public class GraphiteClientFactory {
 	

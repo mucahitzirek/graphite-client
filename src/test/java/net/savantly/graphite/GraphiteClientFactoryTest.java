@@ -1,10 +1,11 @@
 package net.savantly.graphite;
 
-import net.savantly.graphite.impl.SimpleCarbonMetric;
-import org.junit.Test;
-
 import java.net.SocketException;
 import java.net.UnknownHostException;
+
+import org.junit.Test;
+
+import net.savantly.graphite.impl.SimpleCarbonMetric;
 
 public class GraphiteClientFactoryTest {
 

@@ -1,14 +1,14 @@
 package net.savantly.graphite;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class MockCarbonServer {
 	private static final Logger log = LoggerFactory.getLogger(MockCarbonServer.class);

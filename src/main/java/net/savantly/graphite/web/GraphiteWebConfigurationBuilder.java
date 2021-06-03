@@ -1,10 +1,10 @@
 package net.savantly.graphite.web;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.net.URI;
 import java.net.URISyntaxException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class GraphiteWebConfigurationBuilder {
 	private static final Logger log = LoggerFactory.getLogger(GraphiteWebConfigurationBuilder.class);

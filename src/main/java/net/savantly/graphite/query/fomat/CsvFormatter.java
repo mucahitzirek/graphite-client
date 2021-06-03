@@ -1,13 +1,14 @@
 package net.savantly.graphite.query.fomat;
 
-import net.savantly.graphite.query.Formatter;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URLConnection;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import net.savantly.graphite.query.Formatter;
 
 public class CsvFormatter implements Formatter<String> {
 	private final static Logger log = LoggerFactory.getLogger(CsvFormatter.class);

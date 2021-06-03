@@ -1,15 +1,17 @@
 package net.savantly.graphite.query.fomat;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import net.savantly.graphite.query.Formatter;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URLConnection;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import net.savantly.graphite.query.Formatter;
 
 public class JsonFormatter implements Formatter<JsonNode>{
 	private final static Logger log = LoggerFactory.getLogger(JsonFormatter.class);

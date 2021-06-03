@@ -1,18 +1,19 @@
 package net.savantly.graphite.impl;
 
+import java.io.DataOutputStream;
+import java.net.URLConnection;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import net.savantly.graphite.CarbonSender;
 import net.savantly.graphite.QueryableGraphiteClient;
 import net.savantly.graphite.query.GraphiteQuery;
 import net.savantly.graphite.query.ParameterStringBuilder;
 import net.savantly.graphite.web.GraphiteWebConfiguration;
 import net.savantly.graphite.web.GraphiteWebConfigurationBuilder;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import java.io.DataOutputStream;
-import java.net.URLConnection;
-import java.util.HashMap;
-import java.util.Map;
 
 public class QueryableGraphiteClientImpl extends DefaultGraphiteClient implements QueryableGraphiteClient {
 	
