@@ -1,12 +1,11 @@
 package net.savantly.graphite.impl;
 
-import java.util.Collection;
-
+import net.savantly.graphite.CarbonMetric;
+import net.savantly.graphite.CarbonSender;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import net.savantly.graphite.CarbonMetric;
-import net.savantly.graphite.CarbonSender;
+import java.util.Collection;
 
 public class MockCarbonSender implements CarbonSender {
 	private static final Logger log = LoggerFactory.getLogger(MockCarbonSender.class);

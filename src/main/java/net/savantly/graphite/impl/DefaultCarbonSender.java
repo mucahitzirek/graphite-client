@@ -1,20 +1,13 @@
 package net.savantly.graphite.impl;
 
-import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.Inet4Address;
-import java.net.InetAddress;
-import java.net.InetSocketAddress;
-import java.net.SocketException;
-import java.net.UnknownHostException;
-import java.util.Collection;
-
+import net.savantly.graphite.CarbonMetric;
+import net.savantly.graphite.CarbonSender;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import net.savantly.graphite.CarbonMetric;
-import net.savantly.graphite.CarbonSender;
+import java.io.IOException;
+import java.net.*;
+import java.util.Collection;
 
 public class DefaultCarbonSender implements CarbonSender {
 	Logger log = LoggerFactory.getLogger(DefaultCarbonSender.class);

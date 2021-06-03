@@ -1,16 +1,14 @@
 package net.savantly.graphite.query;
 
-import java.net.SocketException;
-import java.net.UnknownHostException;
-
-import org.junit.Assert;
-import org.junit.Test;
-
 import com.fasterxml.jackson.databind.JsonNode;
-
 import net.savantly.graphite.GraphiteClientFactory;
 import net.savantly.graphite.QueryableGraphiteClient;
 import net.savantly.graphite.query.fomat.JsonFormatter;
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.net.SocketException;
+import java.net.UnknownHostException;
 
 public class GraphiteQueryBuilderTest {
 	
